@@ -40,7 +40,7 @@ function setup() {
   world = engine.world;
 
   var packageOptions = { restitution: 0, isStatic: true };
-  packageBody = Bodies.circle(width / 2, 200, 5, packageOptions);
+  packageBody = Bodies.circle(width / 2, 200, 25, packageOptions);
   World.add(world, packageBody);
 
   //Create a Ground
